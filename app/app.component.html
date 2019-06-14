@@ -1,0 +1,35 @@
+
+<html>
+  <head></head>
+  <body>
+    <div>
+        <h1>My Library</h1>
+        <span>Title</span> 
+        <span>Author</span><br>
+        <input type="text" (keyup)="input1($event)">
+        <input type="text" (keyup)="input2($event)">
+        <button (click)="add($event)">add</button>
+    </div><br>
+    <div>
+    <table>
+      <tr>
+        <td>Title</td>
+        <td>Author</td>
+        <td>Delete</td>
+      </tr>
+      <tr>
+        <td>data science</td>
+        <td>jhon deo</td>
+        <td>X</td>
+      </tr>
+      <tr *ngFor="let row of rows">
+        <td>{{ row.Title }}</td>
+        <td>{{ row.Author }}</td>
+        <td>{{ row.Delete }}</td>
+      </tr>
+    </table>
+    </div>
+
+
+  </body>
+</html>

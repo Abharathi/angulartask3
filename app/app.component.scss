@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: bisque;
+    //width:500px;
+    //height:500px;
+}
+span{
+    text-align: center;
+    margin:40px;
+}
+input{
+    margin: 30px;
+    background-color: azure;
+}
+button{
+    background-color: green;
+}
+table{
+    border: 1px solid;
+    margin-left: 550px;
+    width: 20%;
+    height:20px;
+}
+table,th,td{
+    text-align: center;
+    border:1px solid black;
+    border-collapse: collapse;
+}
